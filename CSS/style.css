@@ -78,3 +78,74 @@ button {
     border-radius: 8px;
     border: none;
 }
+
+
+/* Section Two */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+h2.second-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.image-box {
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 52px;
+}
+
+.description {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Section Three */
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.testimonial {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin: 0;
+    margin-top: 12px;
+}
+
