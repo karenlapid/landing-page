@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Landing Page</title>
+    <title>Jack P Landing Page</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
 </head>
 
 <body>
     <div class="one">
-        <div class="header">Header Logo
+        <div class="header"><img src="./images/jack-p-logo.png" alt="logo" class="logo">
             <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
+                <li><a href="#about" target="_self" rel="noopener noreferrer">About</a></li>
+                <li><a href="#gallery" target="_self" rel="noopener noreferrer">Gallery</a></li>
+                <li><a href="#quote" target="_self" rel="noopener noreferrer">Quote</a></li>
             </ul>
         </div>
 
         <div class="hero">
             <div class="hero-text">
-                <h1>Hero Main Text Here</h1>
-                <p>Hero subtext</p>
-                <button>Sign up</button>
+                <a id="about" target="_self" rel="noopener noreferrer"><h1>Meet Jack.</h1></a>
+                <p>The ever so adorable, fiesty, good-hearted, sleepy applehead chihuahua.</p>
+                <button>Learn more</button>
             </div>
-            <div class="hero-image">image placeholder</div>
+            <div class="hero-image"><img src="./images/jack-1.jpg" alt="chihuahua"></div>
         </div>
     </div>
 
     <div class="two">
-        <h2 class="second-header">This is Section 2.</h2>
+        <a id="gallery" target="_self" rel="noopener noreferrer"><h2>Gallery</h2></a>
 
         <div class="content">
             <div class="item">
-                <div class="image-box"></div>
-                <p class="description">subtext</p>
+                <div class="image-box"><img src="./images/jack-2.JPG" alt="jack the chihuahua"></div>
+                <p class="description">Ready for his afternoon nap.</p>
             </div>
 
             <div class="item">
-                <div class="image-box"></div>
-                <p class="description">subtext</p>
+                <div class="image-box"><img src="./images/jack-3.JPG" alt="jack the chihuahua"></div>
+                <p class="description">The cardigan looks better on Jack!</p>
             </div>
 
             <div class="item">
-                <div class="image-box"></div>
-                <p class="description">subtext</p>
+                <div class="image-box"><img src="./images/jack-4.png" alt="jack the chihuahua"></div>
+                <p class="description">Jack lookin so cute in his hoodie.</p>
             </div>
 
             <div class="item">
-                <div class="image-box"></div>
-                <p class="description">subtext</p>
+                <div class="image-box"><img src="./images/jack-5.png" alt="jack the chihuahua"></div>
+                <p class="description">A perfect symmetry!</p>
             </div>
         </div>
     </div>
 
     <div class="three">
-        <div class="quote"> Awwww...wawawaw. Awuuu.
+        <a id="quote" target="_self" rel="noopener noreferrer"><div>Awwww...wawawaw. Awuuu.</a>
             <p class="testimonial">- Jack P.</p>
         </div>
+    </div>
+
+    <div class="four">
+        <div class="action-box">
+            <div class="left">
+                <div class="cta">Want to see more?</div>
+                <div class="cta-sub">Sign up to our newsletter for more Jack P. content!</div>
+            </div>
+            <button class="cta-button">Sign up</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright © The Odin Project 2021
     </div>
 
 </body>
